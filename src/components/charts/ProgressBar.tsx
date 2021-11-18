@@ -58,9 +58,9 @@ export const ProgressBar: ForwardRefExoticComponent<
           <span
             style={progressLabel}
             role="progressbar"
-            aria-valuenow={`${progress}`}
-            aria-valuemin={0}
-            aria-valuemax={100}
+            // aria-valuenow={`${progress}`}
+            // aria-valuemin={0}
+            // aria-valuemax={100}
           >
             {showProgress && `${progress}%`}
           </span>

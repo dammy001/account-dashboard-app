@@ -1,4 +1,4 @@
-import { FC, FormEvent, useState } from 'react';
+import { FC, FormEvent } from 'react';
 import useFormValidator from '../../../hooks/useFormValidation';
 import { Button, Input } from '../../../components';
 import { Link, NavigateFunction, useNavigate } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { login } from '../../../store/reducer/features/authSlice';
 import { useAppDispatch } from '../../../hooks/useStore';
 
 const Register: FC = () => {
-  const [loading, setLoading] = useState<boolean>(false);
+  // const [loading, setLoading] = useState<boolean>(false);
 
   const navigate: NavigateFunction = useNavigate();
   const dispatch = useAppDispatch();
