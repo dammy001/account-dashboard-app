@@ -1,0 +1,36 @@
+@mixin font-wrap($weight) {
+    font-family: "Duplicate Sans";
+    font-style: normal;
+    font-weight: $weight;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans-Thin.woff") format("woff");
+    @include font-wrap(200);
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans-Light.woff") format("woff");
+    @include font-wrap(300);
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans.woff") format("woff");
+    @include font-wrap(400);
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans-Medium.woff") format("woff");
+    @include font-wrap(500);
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans-Bold.woff") format("woff");
+    @include font-wrap(700);
+}
+
+@font-face {
+    src: url("../fonts/DuplicateSans-Heavy.woff") format("woff");
+    @include font-wrap(900);
+}

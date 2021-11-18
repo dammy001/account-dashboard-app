@@ -1,0 +1,8 @@
+@use "sass:math";
+
+$sidebar-width: 286px;
+$loader-colors: white, #e9eaf3, #f4f5fa;
+$loader-dash: 63;
+$loader-duration: length($loader-colors) * 1s;
+$loader-duration-alt: math.div($loader-duration, length($loader-colors));
+$loader-keyframe: math.div(1, length($loader-colors) * 2) * 100;

@@ -1,0 +1,6 @@
+*.css
+*.svg
+*.scss
+/dist
+/build
+/node_modules
