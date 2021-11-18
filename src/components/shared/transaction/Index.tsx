@@ -1,11 +1,6 @@
 import { memo, NamedExoticComponent } from 'react';
 import { classNames, formatAmount } from '../../../helpers/utils';
-import {
-  SubscriptionIcon,
-  TransportIcon,
-  CartIcon,
-  HomeIcon,
-} from '../../../components';
+import { SubscriptionIcon, TransportIcon, CartIcon, HomeIcon } from '../..';
 import { TransactionI } from '../../../types/Transaction';
 
 export type TransactionType = {
