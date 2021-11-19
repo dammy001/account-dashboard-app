@@ -269,3 +269,52 @@ h3 {
     @apply border;
     @apply mb-2;
 }
+
+.modal {
+    @apply cursor-pointer;
+    @apply fixed;
+    @apply bg-black;
+    @apply bg-opacity-50;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    @apply inset-0;
+    @apply overflow-y-auto;
+    @apply w-full;
+    @apply flex;
+    @apply flex-col;
+    @apply invisible;
+    @apply opacity-0;
+    @apply min-h-screen;
+    z-index: 1000;
+    &-content {
+        @apply bg-white;
+        @apply py-8;
+        @apply px-8;
+        @apply flex;
+        @apply flex-col;
+        @apply relative;
+        @apply rounded-lg;
+        @apply m-auto;
+        @apply shadow-sm;
+    }
+    &-close {
+        @apply rounded-full;
+        @apply h-8;
+        @apply w-8;
+        @apply bg-black;
+        @apply bg-opacity-40;
+        @apply flex;
+        @apply justify-center;
+        @apply items-center;
+        @apply absolute;
+        @apply right-5;
+        @apply top-5;
+    }
+    &.open {
+        @apply opacity-100;
+        @apply visible;
+        .modal-content {
+            // @apply animate-pop;
+        }
+    }
+}
