@@ -18,7 +18,9 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 5.1.1
   eslint-plugin-react: 7.27.0
+  eslint-plugin-react-hooks: ^4.3.0
   history: 5.1.0
+  husky: ^7.0.4
   postcss: 8.3.11
   prettier: 2.4.1
   react: 17.0.2
@@ -55,6 +57,8 @@ devDependencies:
   eslint-plugin-prettier: 4.0.0_6e975bd57c7acf028c1a9ddbbf60c898
   eslint-plugin-promise: 5.1.1_eslint@7.32.0
   eslint-plugin-react: 7.27.0_eslint@7.32.0
+  eslint-plugin-react-hooks: 4.3.0_eslint@7.32.0
+  husky: 7.0.4
   postcss: 8.3.11
   prettier: 2.4.1
   sass: 1.43.4
@@ -1357,6 +1361,15 @@ packages:
       eslint: 7.32.0
     dev: true
 
+  /eslint-plugin-react-hooks/4.3.0_eslint@7.32.0:
+    resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+    dependencies:
+      eslint: 7.32.0
+    dev: true
+
   /eslint-plugin-react/7.27.0_eslint@7.32.0:
     resolution: {integrity: sha512-0Ut+CkzpppgFtoIhdzi2LpdpxxBvgFf99eFqWxJnUrO7mMe0eOiNpou6rvNYeVVV6lWZvTah0BFne7k5xHjARg==}
     engines: {node: '>=4'}
@@ -1760,6 +1773,12 @@ packages:
   /html-tags/3.1.0:
     resolution: {integrity: sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==}
     engines: {node: '>=8'}
+    dev: true
+
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
+    engines: {node: '>=12'}
+    hasBin: true
     dev: true
 
   /ignore/4.0.6:

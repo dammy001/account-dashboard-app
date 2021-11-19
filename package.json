@@ -6,7 +6,8 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint-fix": "eslint --fix",
-    "lint": "eslint './src/{views,components,layouts}/**/*.{js,ts,tsx,md,json}'"
+    "lint": "eslint './src/{views,components,layouts}/**/*.{js,ts,tsx,md,json}'",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.6.2",
@@ -33,6 +34,8 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "5.1.1",
     "eslint-plugin-react": "7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
     "postcss": "8.3.11",
     "prettier": "2.4.1",
     "sass": "1.43.4",
