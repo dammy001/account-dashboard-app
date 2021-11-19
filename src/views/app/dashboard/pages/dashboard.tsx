@@ -4,6 +4,8 @@ import { HeaderType } from '../components/Header';
 import { ExpenseProgress } from '../components/ExpenseTracker';
 import { AccountI } from '../../../../types/Account';
 import IsAccountLinked from '../../../../middlewares/IsAccountLinked';
+import { useAppSelector } from '../../../../hooks/useStore';
+import { getAccounts, totalAccountBalance } from '../../../../store';
 
 const Account: LazyExoticComponent<NamedExoticComponent<AccountType>> = lazy(
   () => import('../components/Account')
@@ -19,6 +21,9 @@ const ExpenseTracker: LazyExoticComponent<() => JSX.Element> = lazy(
 );
 
 const Dashboard: FC = () => {
+  const accounts: AccountI[] | null = useAppSelector(getAccounts);
+  const balance: number | undefined = useAppSelector(totalAccountBalance);
+
   return (
     <IsAccountLinked>
       <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 min-h-screen">
@@ -28,7 +33,7 @@ const Dashboard: FC = () => {
           <LatestTransaction />
         </div>
         <div className="col-span-1 sm:col-span-5 pt-10 px-6 sm:px-16 md:px-18 bg-mono-sky/50">
-          <Account balance="30000000" linkedAccounts={[] as AccountI[]} />
+          <Account balance={balance} linkedAccounts={accounts as AccountI[]} />
           <ExpenseProgress />
         </div>
       </div>

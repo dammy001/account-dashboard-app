@@ -43,5 +43,6 @@ module.exports = {
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
     'prettier/prettier': 'warn',
     'react/react-in-jsx-scope': 'off',
+    'react/display-name': 'off',
   },
 };

@@ -25,7 +25,7 @@ const Account = ({ balance, linkedAccounts }: AccountType): JSX.Element => {
 
       <div className="flex justify-center">
         <LinkedAccounts accounts={linkedAccounts}>
-          <div className="account-wrap border ml-3 text-3xl font-thin text-[#D2DCE8]">
+          <div className="account-wrap border ml-3 text-3xl font-thin text-[#D2DCE8] cursor-pointer">
             +
           </div>
         </LinkedAccounts>

@@ -35,6 +35,12 @@ export const linkAccount =
 
 export const { setAccount, setLoading } = accountSlice.actions;
 
-export const userSelector = (state: RootState) => state.auth;
+export const accountSelector = (state: RootState) => state.account;
+export const totalAccountBalance = ({ account }: RootState) =>
+  account?.accounts?.reduce((previousValue, currentValue) => {
+    return previousValue + currentValue.balance;
+  }, 0);
+
+export const getAccounts = ({ account }: RootState) => account?.accounts;
 
 export default accountSlice.reducer;

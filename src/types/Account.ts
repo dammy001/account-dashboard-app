@@ -2,7 +2,7 @@ export interface AccountI {
   id: number | string;
   user_id: number;
   account_name?: string;
-  balance: number | string;
+  balance: number;
   logo: string;
   is_active?: boolean;
   linked_at?: Date | undefined | null;
