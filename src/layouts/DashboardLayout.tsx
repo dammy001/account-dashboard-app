@@ -3,7 +3,6 @@ import { Outlet } from 'react-router-dom';
 import { AppSidebar } from '../views/app/dashboard/components/Sidebar';
 import { useAppSelector } from '../hooks/useStore';
 import { classNames } from '../helpers/utils';
-import IsAccountLinked from '../middlewares/IsAccountLinked';
 
 const DashboardLayout: FC<{}> = () => {
   const isSidebarOpen = useAppSelector((state) => state.util.sidebarOpen);
@@ -14,9 +13,7 @@ const DashboardLayout: FC<{}> = () => {
     >
       <AppSidebar />
       <div className="content">
-        <IsAccountLinked>
-          <Outlet />
-        </IsAccountLinked>
+        <Outlet />
       </div>
     </div>
   );

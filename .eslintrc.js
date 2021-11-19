@@ -16,7 +16,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier', 'react-hooks'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': [
-      'error',
+      'off',
       {
         allowExpressions: true,
       },
@@ -27,6 +27,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
     'no-shadow': 'off',
+    camelcase: 'off',
     eqeqeq: 'error',
     'require-await': 'error',
     '@typescript-eslint/no-shadow': ['error'],
@@ -38,7 +39,9 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'no-undef': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
     'prettier/prettier': 'warn',
+    'react/react-in-jsx-scope': 'off',
   },
 };

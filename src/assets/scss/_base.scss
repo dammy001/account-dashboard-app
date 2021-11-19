@@ -115,6 +115,10 @@ h3 {
             @apply text-sm;
         }
     }
+    &-link {
+        @apply px-12;
+        @apply bg-white;
+    }
 }
 
 .app-layout {

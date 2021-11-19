@@ -1,7 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { LogoWhite } from '../../../../components';
 import { APP_PAGES } from '../../../../router/paths';
 import { classNames } from '../../../../helpers/utils';
+import { useAppDispatch } from '../../../../hooks/useStore';
+import { closeSidebar } from '../../../../store/reducer/features/utilSlice';
 
 const sidebarLinks: Record<string, string>[] = [
   {
@@ -30,7 +33,14 @@ const sidebarLinks: Record<string, string>[] = [
   },
 ];
 
-export const AppSidebar = () => {
+export const AppSidebar = (): JSX.Element => {
+  const dispatch = useAppDispatch();
+  const location = useLocation();
+
+  useEffect(() => {
+    dispatch(closeSidebar());
+  }, [location]);
+
   return (
     <div className="sidebar">
       <LogoWhite />

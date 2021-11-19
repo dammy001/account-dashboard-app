@@ -3,6 +3,7 @@ import { AccountType } from '../components/Account';
 import { HeaderType } from '../components/Header';
 import { ExpenseProgress } from '../components/ExpenseTracker';
 import { AccountI } from '../../../../types/Account';
+import IsAccountLinked from '../../../../middlewares/IsAccountLinked';
 
 const Account: LazyExoticComponent<NamedExoticComponent<AccountType>> = lazy(
   () => import('../components/Account')
@@ -19,17 +20,19 @@ const ExpenseTracker: LazyExoticComponent<() => JSX.Element> = lazy(
 
 const Dashboard: FC = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 min-h-screen">
-      <div className="col-span-1 sm:col-span-7 pt-10 px-6 sm:px-16 flex flex-col">
-        <Header firstName="Damilare" />
-        <ExpenseTracker />
-        <LatestTransaction />
+    <IsAccountLinked>
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 min-h-screen">
+        <div className="col-span-1 sm:col-span-7 pt-10 px-6 sm:px-16 flex flex-col">
+          <Header firstName="Damilare" />
+          <ExpenseTracker />
+          <LatestTransaction />
+        </div>
+        <div className="col-span-1 sm:col-span-5 pt-10 px-6 sm:px-16 md:px-18 bg-mono-sky/50">
+          <Account balance="30000000" linkedAccounts={[] as AccountI[]} />
+          <ExpenseProgress />
+        </div>
       </div>
-      <div className="col-span-1 sm:col-span-5 pt-10 px-6 sm:px-16 md:px-18 bg-mono-sky/50">
-        <Account balance="30000000" linkedAccounts={[] as AccountI[]} />
-        <ExpenseProgress />
-      </div>
-    </div>
+    </IsAccountLinked>
   );
 };
 

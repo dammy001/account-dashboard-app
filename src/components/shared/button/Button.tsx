@@ -1,5 +1,5 @@
 import { FC, ReactNode, MouseEvent, memo } from 'react';
-import { classNames } from '../../helpers/utils';
+import { classNames } from '../../../helpers/utils';
 
 export type ButtonType = {
   children?: ReactNode;

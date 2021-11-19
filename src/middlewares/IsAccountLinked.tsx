@@ -9,7 +9,7 @@ export type isAuthProp = {
 
 const IsAccountLinked: FC<isAuthProp> = ({ children }: isAuthProp) => {
   const hasAtLeastOneAccountLinked = useAppSelector(
-    (state) => state?.auth?.user?.accounts?.length
+    (state) => state?.account?.accounts?.length
   );
 
   return !hasAtLeastOneAccountLinked ? (
