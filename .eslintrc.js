@@ -31,7 +31,7 @@ module.exports = {
     'require-await': 'error',
     '@typescript-eslint/no-shadow': ['error'],
     'import/extensions': [
-      'error',
+      'off',
       'ignorePackages',
       {
         ts: 'never',
