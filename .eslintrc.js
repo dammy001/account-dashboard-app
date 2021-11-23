@@ -44,5 +44,6 @@ module.exports = {
     'prettier/prettier': 'warn',
     'react/react-in-jsx-scope': 'off',
     'react/display-name': 'off',
+    'no-redeclare': 'off',
   },
 };
