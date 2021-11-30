@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@reduxjs/toolkit': 1.6.2
   '@types/node': ^16.11.9
-  '@types/react': 17.0.36
+  '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   '@types/react-redux': 7.1.20
   '@typescript-eslint/eslint-plugin': 5.5.0
@@ -45,7 +45,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 16.11.9
-  '@types/react': 17.0.36
+  '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.5.0_13b98a72b6a1123178dc5d668f23a8fe
   '@typescript-eslint/parser': 5.5.0_eslint@7.32.0+typescript@4.5.2
@@ -445,7 +445,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 17.0.36
+      '@types/react': 17.0.37
       hoist-non-react-statics: 3.3.2
     dev: false
 
@@ -471,20 +471,20 @@ packages:
   /@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
     dependencies:
-      '@types/react': 17.0.36
+      '@types/react': 17.0.37
     dev: true
 
   /@types/react-redux/7.1.20:
     resolution: {integrity: sha512-q42es4c8iIeTgcnB+yJgRTTzftv3eYYvCZOh1Ckn2eX/3o5TdsQYKUWpLoLuGlcY/p+VAhV9IOEZJcWk/vfkXw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 17.0.36
+      '@types/react': 17.0.37
       hoist-non-react-statics: 3.3.2
       redux: 4.1.2
     dev: false
 
-  /@types/react/17.0.36:
-    resolution: {integrity: sha512-CUFUp01OdfbpN/76v4koqgcpcRGT3sYOq3U3N6q0ZVGcyeP40NUdVU+EWe3hs34RNaTefiYyBzOpxBBidCc5zw==}
+  /@types/react/17.0.37:
+    resolution: {integrity: sha512-2FS1oTqBGcH/s0E+CjrCCR9+JMpsu9b69RTFO+40ua43ZqP5MmQ4iUde/dMjWR909KxZwmOQIFq6AV6NjEG5xg==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
