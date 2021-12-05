@@ -63,11 +63,9 @@ export const renderRoutes = (routes: BaseRouteType[] = []): JSX.Element => {
       })}
       <Route
         element={
-          <Suspense fallback={<SuspenseLoader />}>
-            <IsAuthenticated>
-              <DashboardLayout />
-            </IsAuthenticated>
-          </Suspense>
+          <IsAuthenticated>
+            <DashboardLayout />
+          </IsAuthenticated>
         }
       >
         {dashboardRoutes?.map((route: BaseRouteType, key: number) => {
@@ -82,7 +80,9 @@ export const renderRoutes = (routes: BaseRouteType[] = []): JSX.Element => {
               index={route.index}
               element={
                 <ErrorBoundary>
-                  <Component />
+                  <Suspense fallback={<SuspenseLoader />}>
+                    <Component />
+                  </Suspense>
                 </ErrorBoundary>
               }
             />
