@@ -1,5 +1,5 @@
 import { FC, FormEvent } from 'react';
-import useFormValidator from '../../../hooks/useFormValidation';
+import useFormValidator from '@damilaredev/react-form-validation-hook';
 import { Button, Input } from '../../../components';
 import { Link, NavigateFunction, useNavigate } from 'react-router-dom';
 import { login } from '../../../store/reducer/features/authSlice';

@@ -1,5 +1,5 @@
 import { FC, FormEvent, useState } from 'react';
-import useFormValidator from '../../../hooks/useFormValidation';
+import useFormValidator from '@damilaredev/react-form-validation-hook';
 import { Button, Input, Checkbox } from '../../../components';
 import { Link, NavigateFunction, useNavigate } from 'react-router-dom';
 import { useAppDispatch } from '../../../hooks/useStore';
