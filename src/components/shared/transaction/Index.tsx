@@ -12,7 +12,7 @@ export const Transaction: NamedExoticComponent<TransactionType> =
   memo<TransactionType>(({ transactions }: TransactionType) => {
     return (
       <div>
-        {transactions?.length
+        {!transactions?.length
           ? [...Array(5)].map((index: number) => {
               return (
                 <div
