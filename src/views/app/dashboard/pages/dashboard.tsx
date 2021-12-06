@@ -2,10 +2,10 @@ import { FC, lazy, LazyExoticComponent, NamedExoticComponent } from 'react';
 import { AccountType } from '../components/Account';
 import { HeaderType } from '../components/Header';
 import { ExpenseProgress } from '../components/ExpenseTracker';
-import { AccountI } from '../../../../types/Account';
-import IsAccountLinked from '../../../../middlewares/IsAccountLinked';
-import { useAppSelector } from '../../../../hooks/useStore';
-import { getAccounts, totalAccountBalance } from '../../../../store';
+import { AccountI } from '@/types/Account';
+import IsAccountLinked from '@/middlewares/IsAccountLinked';
+import { useAppSelector } from '@/hooks/useStore';
+import { getAccounts, totalAccountBalance } from '@/store';
 
 const Account: LazyExoticComponent<NamedExoticComponent<AccountType>> = lazy(
   () => import('../components/Account')

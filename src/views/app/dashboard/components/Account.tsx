@@ -1,7 +1,7 @@
 import { memo, ReactNode } from 'react';
-import { formatAmount } from '../../../../helpers/utils';
-import { Button, ImageWithFallback } from '../../../../components';
-import { AccountI } from '../../../../types/Account';
+import { formatAmount } from '@/helpers/utils';
+import { Button, ImageWithFallback } from '@/components';
+import { AccountI } from '@/types/Account';
 
 export type AccountType = {
   balance?: number | string;

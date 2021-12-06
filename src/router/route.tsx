@@ -1,20 +1,20 @@
 import { FC, Fragment, lazy, LazyExoticComponent, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import AuthLayout from '../layouts/AuthLayout';
-import ErrorBoundary from '../components/error/ErrorBoundary';
+import AuthLayout from '@/layouts/AuthLayout';
+import ErrorBoundary from '@/components/error/ErrorBoundary';
 import { APP_PAGES, AUTH_PAGES } from './paths';
-import { SuspenseLoader } from '../components';
-import { isAuthProp } from '../middlewares/IsAuthenticated';
+import { SuspenseLoader } from '@/components';
+import { isAuthProp } from '@/middlewares/IsAuthenticated';
 
 const PageNotFound: LazyExoticComponent<() => JSX.Element> = lazy(
-  () => import('../views/404')
+  () => import('@/views/404')
 );
 
 const IsAuthenticated: LazyExoticComponent<FC<isAuthProp>> = lazy(
-  () => import('../middlewares/IsAuthenticated')
+  () => import('@/middlewares/IsAuthenticated')
 );
 const DashboardLayout: LazyExoticComponent<FC<{}>> = lazy(
-  () => import('../layouts/DashboardLayout')
+  () => import('@/layouts/DashboardLayout')
 );
 
 export type BaseRouteType = {

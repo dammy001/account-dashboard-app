@@ -1,8 +1,8 @@
 import { FC, memo, useEffect } from 'react';
-import { User } from '../../../../types/User';
-import { MoreIcon, Transaction } from '../../../../components';
+import { User } from '@/types/User';
+import { MoreIcon, Transaction } from '@/components';
 import { Link } from 'react-router-dom';
-import { APP_PAGES } from '../../../../router/paths';
+import { APP_PAGES } from '@/router/paths';
 
 export type PropType = {
   user?: User;

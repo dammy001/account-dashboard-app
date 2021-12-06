@@ -1,9 +1,9 @@
 import { FC } from 'react';
 import { NavigateFunction, useNavigate } from 'react-router-dom';
 import { AccountI } from 'src/types';
-import { ArrowUpRightIcon, Button, LockIcon } from '../../../../components';
-import { useAppDispatch } from '../../../../hooks/useStore';
-import { linkAccount } from '../../../../store/reducer/features/accountSlice';
+import { ArrowUpRightIcon, Button, LockIcon } from '@/components';
+import { useAppDispatch } from '@/hooks/useStore';
+import { linkAccount } from '@/store/reducer/features/accountSlice';
 
 const account: AccountI = {
   id: 1,
@@ -20,7 +20,7 @@ const LinkAccount: FC = (): JSX.Element => {
   const dispatch = useAppDispatch();
   const navigate: NavigateFunction = useNavigate();
 
-  const linkBankAccount = () => {
+  const linkBankAccount = (): void => {
     dispatch(linkAccount(account));
     setTimeout(() => navigate('/app/dashboard'), 500);
   };

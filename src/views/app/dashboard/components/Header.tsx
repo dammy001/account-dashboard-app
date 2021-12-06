@@ -1,8 +1,8 @@
 import { FC, memo } from 'react';
-import { ImageWithFallback } from '../../../../components';
-import { timeOfDay } from '../../../../helpers/utils';
-import { useAppDispatch } from '../../../../hooks/useStore';
-import { toggleSidebar } from '../../../../store/reducer/features/utilSlice';
+import { ImageWithFallback } from '@/components';
+import { timeOfDay } from '@/helpers/utils';
+import { useAppDispatch } from '@/hooks/useStore';
+import { toggleSidebar } from '@/store/reducer/features/utilSlice';
 
 export type HeaderType = {
   firstName: string;

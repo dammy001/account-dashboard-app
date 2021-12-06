@@ -1,5 +1,5 @@
 import { ReactNode, FC } from 'react';
-import { Logo } from '../components';
+import { Logo } from '@/components';
 
 type AuthLayout = {
   children: ReactNode;

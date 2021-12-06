@@ -1,9 +1,9 @@
 import { FC, FormEvent, useState } from 'react';
 import useFormValidator from '@damilaredev/react-form-validation-hook';
-import { Button, Input, Checkbox } from '../../../components';
+import { Button, Input, Checkbox } from '@/components';
 import { Link, NavigateFunction, useNavigate } from 'react-router-dom';
-import { useAppDispatch } from '../../../hooks/useStore';
-import { login } from '../../../store/reducer/features/authSlice';
+import { useAppDispatch } from '@/hooks/useStore';
+import { login } from '@/store/reducer/features/authSlice';
 
 const Login: FC = () => {
   // const [loading, setLoading] = useState<boolean>(false);

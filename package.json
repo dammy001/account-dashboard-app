@@ -8,12 +8,12 @@
     "lint-fix": "eslint --fix",
     "lint": "eslint './src/{views,components,layouts}/**/*.{js,ts,tsx,md,json}'",
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@damilaredev/react-form-validation-hook": "^1.0.4",
+    "@damilaredev/react-form-validation-hook": "^1.0.5",
     "@reduxjs/toolkit": "1.6.2",
-    "@types/react-redux": "7.1.20",
     "axios": "0.24.0",
     "history": "5.1.0",
     "react": "17.0.2",
@@ -25,6 +25,7 @@
     "@types/node": "^16.11.9",
     "@types/react": "17.0.37",
     "@types/react-dom": "17.0.11",
+    "@types/react-redux": "7.1.20",
     "@typescript-eslint/eslint-plugin": "5.5.0",
     "@typescript-eslint/parser": "5.5.0",
     "@vitejs/plugin-react": "1.1.0",

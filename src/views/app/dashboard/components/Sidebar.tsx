@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { LogoWhite } from '../../../../components';
-import { APP_PAGES } from '../../../../router/paths';
-import { classNames } from '../../../../helpers/utils';
-import { useAppDispatch, useAppSelector } from '../../../../hooks/useStore';
-import { closeSidebar } from '../../../../store/reducer/features/utilSlice';
-import { getAccounts } from '../../../../store/reducer/features/accountSlice';
+import { LogoWhite } from '@/components';
+import { APP_PAGES } from '@/router/paths';
+import { classNames } from '@/helpers/utils';
+import { useAppDispatch, useAppSelector } from '@/hooks/useStore';
+import { closeSidebar } from '@/store/reducer/features/utilSlice';
+import { getAccounts } from '@/store/reducer/features/accountSlice';
 
 const sidebarLinks: Record<string, string>[] = [
   {
@@ -69,7 +69,7 @@ export const AppSidebar = (): JSX.Element => {
   );
 };
 
-export const SidebarLoading = () => (
+export const SidebarLoading = (): JSX.Element => (
   <>
     <div className="h-1 bg-[#FFFFFF99] bg-opacity-60 rounded-xl" />
     <div className="h-1 w-8/12 bg-[#DADADA] rounded-xl mt-5" />

@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { Outlet } from 'react-router-dom';
-import { AppSidebar } from '../views/app/dashboard/components/Sidebar';
+import { AppSidebar } from '@/views/app/dashboard/components/Sidebar';
 import { useAppSelector } from '../hooks/useStore';
-import { classNames } from '../helpers/utils';
+import { classNames } from '@/helpers/utils';
 
 const DashboardLayout: FC<{}> = () => {
   const isSidebarOpen = useAppSelector((state) => state.util.sidebarOpen);

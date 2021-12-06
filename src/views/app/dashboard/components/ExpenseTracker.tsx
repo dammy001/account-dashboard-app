@@ -1,6 +1,6 @@
 import { MutableRefObject, useRef } from 'react';
-import { formatAmount } from '../../../../helpers/utils';
-import { BarChart, MoreIcon, ProgressBar } from '../../../../components';
+import { formatAmount } from '@/helpers/utils';
+import { BarChart, MoreIcon, ProgressBar } from '@/components';
 
 const _data = [
   { value: 599, color: '#9DC8FF' },
