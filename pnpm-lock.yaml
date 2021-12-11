@@ -9,7 +9,7 @@ specifiers:
   '@types/react-redux': 7.1.20
   '@typescript-eslint/eslint-plugin': 5.6.0
   '@typescript-eslint/parser': 5.6.0
-  '@vitejs/plugin-react': 1.1.0
+  '@vitejs/plugin-react': 1.1.1
   autoprefixer: 10.4.0
   axios: 0.24.0
   eslint: 8.4.1
@@ -32,7 +32,7 @@ specifiers:
   sass: 1.44.0
   tailwindcss: 3.0.1
   typescript: 4.5.2
-  vite: 2.6.14
+  vite: 2.7.1
 
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.0.5_react-dom@17.0.2+react@17.0.2
@@ -51,7 +51,7 @@ devDependencies:
   '@types/react-redux': 7.1.20
   '@typescript-eslint/eslint-plugin': 5.6.0_16d83f5c41c3abb1061a82b07c18e4f3
   '@typescript-eslint/parser': 5.6.0_eslint@8.4.1+typescript@4.5.2
-  '@vitejs/plugin-react': 1.1.0
+  '@vitejs/plugin-react': 1.1.1
   autoprefixer: 10.4.0_postcss@8.4.4
   eslint: 8.4.1
   eslint-config-prettier: 8.3.0_eslint@8.4.1
@@ -68,7 +68,7 @@ devDependencies:
   sass: 1.44.0
   tailwindcss: 3.0.1_6b4e3d148bdcb715d5f821ed0a9c268b
   typescript: 4.5.2
-  vite: 2.6.14_sass@1.44.0
+  vite: 2.7.1_sass@1.44.0
 
 packages:
 
@@ -602,8 +602,8 @@ packages:
       eslint-visitor-keys: 3.1.0
     dev: true
 
-  /@vitejs/plugin-react/1.1.0:
-    resolution: {integrity: sha512-hRAqG6/lYf0mfDm/1r0U81vwPWMpyi87e4bFK+LvVQQeIgdh6TwvfuF20waenSGSumz6JH2bfk9DbxdgDLRp/w==}
+  /@vitejs/plugin-react/1.1.1:
+    resolution: {integrity: sha512-IJSRD4culdwQ6cRK0D1mstV1vdvYSb2HK1JQ1FDo6Hr7j5ppWJEwBC2v/Gy0h/A1lMmi4AnXACY/d10EgbQNEA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.16.0
@@ -2703,8 +2703,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.6.14_sass@1.44.0:
-    resolution: {integrity: sha512-2HA9xGyi+EhY2MXo0+A2dRsqsAG3eFNEVIo12olkWhOmc8LfiM+eMdrXf+Ruje9gdXgvSqjLI9freec1RUM5EA==}
+  /vite/2.7.1_sass@1.44.0:
+    resolution: {integrity: sha512-TDXXhcu5lyQ6uosK4ZWaOyB4VzOiizk0biitRzDzaEtgSUi8rVYPc4k1xgOjLSf0OuceDJmojFKXHOX9DB1WuQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
