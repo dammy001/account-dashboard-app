@@ -28,7 +28,7 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   react-redux: 7.2.6
-  react-router-dom: 6.0.2
+  react-router-dom: 6.1.0
   sass: 1.44.0
   tailwindcss: 3.0.1
   typescript: 4.5.3
@@ -42,7 +42,7 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-redux: 7.2.6_react-dom@17.0.2+react@17.0.2
-  react-router-dom: 6.0.2_react-dom@17.0.2+react@17.0.2
+  react-router-dom: 6.1.0_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
   '@types/node': 16.11.9
@@ -496,7 +496,7 @@ packages:
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
 
-  /@typescript-eslint/eslint-plugin/5.6.0_0d0cecf582ba45923647a091322795b0:
+  /@typescript-eslint/eslint-plugin/5.6.0_16d83f5c41c3abb1061a82b07c18e4f3:
     resolution: {integrity: sha512-MIbeMy5qfLqtgs1hWd088k1hOuRsN9JrHUPwVVKCD99EOUqScd7SrwoZl4Gso05EAP9w1kvLWUVGJOVpRPkDPA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2336,8 +2336,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/6.0.2_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-cOpJ4B6raFutr0EG8O/M2fEoyQmwvZWomf1c6W2YXBZuFBx8oTk/zqjXghwScyhfrtnt0lANXV2182NQblRxFA==}
+  /react-router-dom/6.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-ONVhgCiEHTPZvsz05AUiqKj9mrlkDyxt96FB51JrZH7Jlau2B8GJ+NfWw7rbu+oj9gfpZOsK14xJppLAWg2ifQ==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -2345,11 +2345,11 @@ packages:
       history: 5.1.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-router: 6.0.2_react@17.0.2
+      react-router: 6.1.0_react@17.0.2
     dev: false
 
-  /react-router/6.0.2_react@17.0.2:
-    resolution: {integrity: sha512-8/Wm3Ed8t7TuedXjAvV39+c8j0vwrI5qVsYqjFr5WkJjsJpEvNSoLRUbtqSEYzqaTUj1IV+sbPJxvO+accvU0Q==}
+  /react-router/6.1.0_react@17.0.2:
+    resolution: {integrity: sha512-96x4YGONBBz41ikne/I9Zw4jZm+KeFyUZraiNkSA384g/B8ps8nRNAfN8339EpZRt+t16RM+TA9z+NqlYATGzw==}
     peerDependencies:
       react: '>=16.8'
     dependencies:
