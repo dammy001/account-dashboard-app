@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-promise: 5.2.0
   eslint-plugin-react: 7.27.1
   eslint-plugin-react-hooks: ^4.3.0
-  history: 5.1.0
+  history: 5.2.0
   husky: ^7.0.4
   postcss: 8.4.5
   prettier: 2.5.1
@@ -38,7 +38,7 @@ dependencies:
   '@damilaredev/react-form-validation-hook': 1.0.5_react-dom@17.0.2+react@17.0.2
   '@reduxjs/toolkit': 1.7.1_react-redux@7.2.6+react@17.0.2
   axios: 0.24.0
-  history: 5.1.0
+  history: 5.2.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-redux: 7.2.6_react-dom@17.0.2+react@17.0.2
@@ -1696,8 +1696,8 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /history/5.1.0:
-    resolution: {integrity: sha512-zPuQgPacm2vH2xdORvGGz1wQMuHSIB56yNAy5FnLuwOwgSYyPKptJtcMm6Ev+hRGeS+GzhbmRacHzvlESbFwDg==}
+  /history/5.2.0:
+    resolution: {integrity: sha512-uPSF6lAJb3nSePJ43hN3eKj1dTWpN9gMod0ZssbFTIsen+WehTmEadgL+kg78xLJFdRfrrC//SavDzmRVdE+Ig==}
     dependencies:
       '@babel/runtime': 7.16.3
     dev: false
