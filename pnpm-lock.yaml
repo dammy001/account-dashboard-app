@@ -6,7 +6,7 @@ specifiers:
   '@types/node': ^16.11.9
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
-  '@types/react-redux': 7.1.20
+  '@types/react-redux': 7.1.21
   '@typescript-eslint/eslint-plugin': 5.8.0
   '@typescript-eslint/parser': 5.8.0
   '@vitejs/plugin-react': 1.1.3
@@ -48,7 +48,7 @@ devDependencies:
   '@types/node': 16.11.14
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
-  '@types/react-redux': 7.1.20
+  '@types/react-redux': 7.1.21
   '@typescript-eslint/eslint-plugin': 5.8.0_836011a006f4f5d67178564baf2b6d34
   '@typescript-eslint/parser': 5.8.0_eslint@8.5.0+typescript@4.5.4
   '@vitejs/plugin-react': 1.1.3
@@ -460,8 +460,8 @@ packages:
       '@types/react': 17.0.37
     dev: true
 
-  /@types/react-redux/7.1.20:
-    resolution: {integrity: sha512-q42es4c8iIeTgcnB+yJgRTTzftv3eYYvCZOh1Ckn2eX/3o5TdsQYKUWpLoLuGlcY/p+VAhV9IOEZJcWk/vfkXw==}
+  /@types/react-redux/7.1.21:
+    resolution: {integrity: sha512-bLdglUiBSQNzWVVbmNPKGYYjrzp3/YDPwfOH3nLEz99I4awLlaRAPWjo6bZ2POpxztFWtDDXIPxBLVykXqBt+w==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
       '@types/react': 17.0.37
@@ -2304,7 +2304,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.16.5
-      '@types/react-redux': 7.1.20
+      '@types/react-redux': 7.1.21
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
       prop-types: 15.7.2
