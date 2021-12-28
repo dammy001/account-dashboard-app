@@ -32,7 +32,7 @@ specifiers:
   sass: 1.45.1
   tailwindcss: 3.0.7
   typescript: 4.5.4
-  vite: 2.7.7
+  vite: 2.7.8
 
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.0.5_react-dom@17.0.2+react@17.0.2
@@ -68,7 +68,7 @@ devDependencies:
   sass: 1.45.1
   tailwindcss: 3.0.7_16a290f6d0e3717bf6d2667234aebd30
   typescript: 4.5.4
-  vite: 2.7.7_sass@1.45.1
+  vite: 2.7.8_sass@1.45.1
 
 packages:
 
@@ -2686,8 +2686,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.7.7_sass@1.45.1:
-    resolution: {integrity: sha512-Nm4ingl//gMSj/p1aCBHuTc5Fd8W8Mwdci/HUvqCVq8xaJqF7z08S/LRq1M9kS0jRfJk1/f/CwUyQAr6YgsOLw==}
+  /vite/2.7.8_sass@1.45.1:
+    resolution: {integrity: sha512-NOgvRtXUq4/7srE2cTQ2IU1oERdGq2njVOlZtgRrjMO+PPJpncd61/AUzxzZklQ1zBkiWXEVrw3Csq0Sbgr0rQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
