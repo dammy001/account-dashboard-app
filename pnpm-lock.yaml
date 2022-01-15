@@ -30,7 +30,7 @@ specifiers:
   react-redux: 7.2.6
   react-router-dom: 6.2.1
   sass: 1.48.0
-  tailwindcss: 3.0.13
+  tailwindcss: 3.0.15
   typescript: 4.5.4
   vite: 2.7.12
 
@@ -66,7 +66,7 @@ devDependencies:
   postcss: 8.4.5
   prettier: 2.5.1
   sass: 1.48.0
-  tailwindcss: 3.0.13_ef48b3b8837f8a23677bffe8f9cd866d
+  tailwindcss: 3.0.15_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.4
   vite: 2.7.12_sass@1.48.0
 
@@ -2592,8 +2592,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.0.13_ef48b3b8837f8a23677bffe8f9cd866d:
-    resolution: {integrity: sha512-raRPGFwQSGXn/3h0ttHND9jyPYfqk/ur2NXtlQuK25+ZnrCjlH1s1j4/oPswHGMoZzGNykUVycZ/LcROanUE0A==}
+  /tailwindcss/3.0.15_ef48b3b8837f8a23677bffe8f9cd866d:
+    resolution: {integrity: sha512-bT2iy7FtjwgsXik4ZoJnHXR+SRCiGR1W95fVqpLZebr64m4ahwUwRbIAc5w5+2fzr1YF4Ct2eI7dojMRRl8sVQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
