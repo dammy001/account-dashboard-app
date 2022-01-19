@@ -11,7 +11,7 @@ specifiers:
   '@typescript-eslint/parser': 5.9.1
   '@vitejs/plugin-react': 1.1.4
   autoprefixer: 10.4.2
-  axios: 0.24.0
+  axios: 0.25.0
   eslint: 8.7.0
   eslint-config-prettier: 8.3.0
   eslint-config-standard: 16.0.3
@@ -37,7 +37,7 @@ specifiers:
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.0.5_react-dom@17.0.2+react@17.0.2
   '@reduxjs/toolkit': 1.7.1_react-redux@7.2.6+react@17.0.2
-  axios: 0.24.0
+  axios: 0.25.0
   history: 5.2.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -747,10 +747,10 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /axios/0.24.0:
-    resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
+  /axios/0.25.0:
+    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
     dependencies:
-      follow-redirects: 1.14.6
+      follow-redirects: 1.14.7
     transitivePeerDependencies:
       - debug
     dev: false
@@ -1545,8 +1545,8 @@ packages:
     resolution: {integrity: sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==}
     dev: true
 
-  /follow-redirects/1.14.6:
-    resolution: {integrity: sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A==}
+  /follow-redirects/1.14.7:
+    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
