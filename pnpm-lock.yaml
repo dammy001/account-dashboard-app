@@ -29,7 +29,7 @@ specifiers:
   react-dom: 17.0.2
   react-redux: 7.2.6
   react-router-dom: 6.2.1
-  sass: 1.49.7
+  sass: 1.49.8
   tailwindcss: 3.0.23
   typescript: 4.5.5
   vite: 2.8.3
@@ -65,10 +65,10 @@ devDependencies:
   husky: 7.0.4
   postcss: 8.4.6
   prettier: 2.5.1
-  sass: 1.49.7
+  sass: 1.49.8
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
-  vite: 2.8.3_sass@1.49.7
+  vite: 2.8.3_sass@1.49.8
 
 packages:
 
@@ -2511,14 +2511,14 @@ packages:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: true
 
-  /sass/1.49.7:
-    resolution: {integrity: sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==}
+  /sass/1.49.8:
+    resolution: {integrity: sha512-NoGOjvDDOU9og9oAxhRnap71QaTjjlzrvLnKecUJ3GxhaQBrV6e7gPuSPF28u1OcVAArVojPAe4ZhOXwwC4tGw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
       immutable: 4.0.0
-      source-map-js: 1.0.1
+      source-map-js: 1.0.2
     dev: true
 
   /scheduler/0.20.2:
@@ -2564,11 +2564,6 @@ packages:
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
-    dev: true
-
-  /source-map-js/1.0.1:
-    resolution: {integrity: sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /source-map-js/1.0.2:
@@ -2757,7 +2752,7 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.8.3_sass@1.49.7:
+  /vite/2.8.3_sass@1.49.8:
     resolution: {integrity: sha512-967klrEiG7HEsN7fQYYVETs5495Iu6GpI7YyxoO5yVTJCRxjV8HhWgNWKgrbazjoOB9DQuztL53/nUoNqHNsWg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -2777,7 +2772,7 @@ packages:
       postcss: 8.4.6
       resolve: 1.22.0
       rollup: 2.61.1
-      sass: 1.49.7
+      sass: 1.49.8
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
