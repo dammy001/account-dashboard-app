@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@damilaredev/react-form-validation-hook': ^1.0.5
+  '@damilaredev/react-form-validation-hook': 1.0.5
   '@reduxjs/toolkit': 1.7.2
-  '@types/node': ^16.11.9
+  '@types/node': 16.11.25
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@types/react-redux': 7.1.22
@@ -20,9 +20,9 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 6.0.0
   eslint-plugin-react: 7.28.0
-  eslint-plugin-react-hooks: ^4.3.0
+  eslint-plugin-react-hooks: 4.3.0
   history: 5.2.0
-  husky: ^7.0.4
+  husky: 7.0.4
   postcss: 8.4.6
   prettier: 2.5.1
   react: 17.0.2
@@ -45,7 +45,7 @@ dependencies:
   react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
-  '@types/node': 16.11.14
+  '@types/node': 16.11.25
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@types/react-redux': 7.1.22
@@ -466,8 +466,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/node/16.11.14:
-    resolution: {integrity: sha512-mK6BKLpL0bG6v2CxHbm0ed6RcZrAtTHBTd/ZpnlVPVa3HkumsqLE4BC4u6TQ8D7pnrRbOU0am6epuALs+Ncnzw==}
+  /@types/node/16.11.25:
+    resolution: {integrity: sha512-NrTwfD7L1RTc2qrHQD4RTTy4p0CO2LatKBEKEds3CaVuhoM/+DJzmWZl5f+ikR8cm8F5mfJxK+9rQq07gRiSjQ==}
     dev: true
 
   /@types/parse-json/4.0.0:
