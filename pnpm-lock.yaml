@@ -29,7 +29,7 @@ specifiers:
   react-dom: 17.0.2
   react-redux: 7.2.6
   react-router-dom: 6.2.1
-  sass: 1.49.8
+  sass: 1.49.9
   tailwindcss: 3.0.23
   typescript: 4.5.5
   vite: 2.8.4
@@ -65,10 +65,10 @@ devDependencies:
   husky: 7.0.4
   postcss: 8.4.6
   prettier: 2.5.1
-  sass: 1.49.8
+  sass: 1.49.9
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
-  vite: 2.8.4_sass@1.49.8
+  vite: 2.8.4_sass@1.49.9
 
 packages:
 
@@ -2511,8 +2511,8 @@ packages:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: true
 
-  /sass/1.49.8:
-    resolution: {integrity: sha512-NoGOjvDDOU9og9oAxhRnap71QaTjjlzrvLnKecUJ3GxhaQBrV6e7gPuSPF28u1OcVAArVojPAe4ZhOXwwC4tGw==}
+  /sass/1.49.9:
+    resolution: {integrity: sha512-YlYWkkHP9fbwaFRZQRXgDi3mXZShslVmmo+FVK3kHLUELHHEYrCmL1x6IUjC7wLS6VuJSAFXRQS/DxdsC4xL1A==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -2752,7 +2752,7 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.8.4_sass@1.49.8:
+  /vite/2.8.4_sass@1.49.9:
     resolution: {integrity: sha512-GwtOkkaT2LDI82uWZKcrpRQxP5tymLnC7hVHHqNkhFNknYr0hJUlDLfhVRgngJvAy3RwypkDCWtTKn1BjO96Dw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -2772,7 +2772,7 @@ packages:
       postcss: 8.4.6
       resolve: 1.22.0
       rollup: 2.61.1
-      sass: 1.49.8
+      sass: 1.49.9
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
