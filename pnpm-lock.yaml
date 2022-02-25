@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 6.0.0
-  eslint-plugin-react: 7.28.0
+  eslint-plugin-react: 7.29.1
   eslint-plugin-react-hooks: ^4.3.0
   history: 5.3.0
   husky: ^7.0.4
@@ -60,7 +60,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@8.9.0
   eslint-plugin-prettier: 4.0.0_9f62b85ce3ce02949dbd2ccffcebe95f
   eslint-plugin-promise: 6.0.0_eslint@8.9.0
-  eslint-plugin-react: 7.28.0_eslint@8.9.0
+  eslint-plugin-react: 7.29.1_eslint@8.9.0
   eslint-plugin-react-hooks: 4.3.0_eslint@8.9.0
   husky: 7.0.4
   postcss: 8.4.6
@@ -367,7 +367,7 @@ packages:
       ignore: 4.0.6
       import-fresh: 3.3.0
       js-yaml: 4.1.0
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
@@ -379,7 +379,7 @@ packages:
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
       debug: 4.3.3
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1383,8 +1383,8 @@ packages:
       eslint: 8.9.0
     dev: true
 
-  /eslint-plugin-react/7.28.0_eslint@8.9.0:
-    resolution: {integrity: sha512-IOlFIRHzWfEQQKcAD4iyYDndHwTQiCMcJVJjxempf203jnNLUnW34AXLrV33+nEXoifJE2ZEGmcjKPL8957eSw==}
+  /eslint-plugin-react/7.29.1_eslint@8.9.0:
+    resolution: {integrity: sha512-WtzRpHMhsOX05ZrkyaaqmLl2uXGqmYooCfBxftJKlkYdsltiufGgfU7uuoHwR2lBam2Kh/EIVID4aU9e3kbCMA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -1395,12 +1395,12 @@ packages:
       eslint: 8.9.0
       estraverse: 5.3.0
       jsx-ast-utils: 3.2.1
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       object.entries: 1.1.5
       object.fromentries: 2.0.5
       object.hasown: 1.1.0
       object.values: 1.1.5
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       resolve: 2.0.0-next.3
       semver: 6.3.0
       string.prototype.matchall: 4.0.6
@@ -1681,7 +1681,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -2051,6 +2051,12 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
+  /minimatch/3.1.2:
+    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+    dependencies:
+      brace-expansion: 1.1.11
+    dev: true
+
   /minimist/1.2.5:
     resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
     dev: true
@@ -2319,6 +2325,15 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+    dev: false
+
+  /prop-types/15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: true
 
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
