@@ -4,7 +4,7 @@ specifiers:
   '@damilaredev/react-form-validation-hook': 1.0.5
   '@reduxjs/toolkit': 1.8.0
   '@types/node': 16.11.26
-  '@types/react': 17.0.40
+  '@types/react': 17.0.43
   '@types/react-dom': 17.0.14
   '@types/react-redux': 7.1.23
   '@typescript-eslint/eslint-plugin': 5.15.0
@@ -46,7 +46,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 16.11.26
-  '@types/react': 17.0.40
+  '@types/react': 17.0.43
   '@types/react-dom': 17.0.14
   '@types/react-redux': 7.1.23
   '@typescript-eslint/eslint-plugin': 5.15.0_f2c49ce7d0e93ebcfdb4b7d25b131b28
@@ -455,7 +455,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 17.0.40
+      '@types/react': 17.0.43
       hoist-non-react-statics: 3.3.2
 
   /@types/json-schema/7.0.9:
@@ -480,19 +480,19 @@ packages:
   /@types/react-dom/17.0.14:
     resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
     dependencies:
-      '@types/react': 17.0.40
+      '@types/react': 17.0.43
     dev: true
 
   /@types/react-redux/7.1.23:
     resolution: {integrity: sha512-D02o3FPfqQlfu2WeEYwh3x2otYd2Dk1o8wAfsA0B1C2AJEFxE663Ozu7JzuWbznGgW248NaOF6wsqCGNq9d3qw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 17.0.40
+      '@types/react': 17.0.43
       hoist-non-react-statics: 3.3.2
       redux: 4.1.2
 
-  /@types/react/17.0.40:
-    resolution: {integrity: sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==}
+  /@types/react/17.0.43:
+    resolution: {integrity: sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
