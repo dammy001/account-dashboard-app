@@ -24,7 +24,7 @@ specifiers:
   history: 5.3.0
   husky: 7.0.4
   postcss: 8.4.12
-  prettier: 2.5.1
+  prettier: 2.6.2
   react: 17.0.2
   react-dom: 17.0.2
   react-redux: 7.2.6
@@ -58,13 +58,13 @@ devDependencies:
   eslint-config-standard: 16.0.3_7dc77a0be22b3241d34262bf15f20ff9
   eslint-plugin-import: 2.25.4_eslint@8.11.0
   eslint-plugin-node: 11.1.0_eslint@8.11.0
-  eslint-plugin-prettier: 4.0.0_c9d5adccfd1d43a8805a302169f6a967
+  eslint-plugin-prettier: 4.0.0_d787f974c3263c3f552a159664c9f51b
   eslint-plugin-promise: 6.0.0_eslint@8.11.0
   eslint-plugin-react: 7.29.4_eslint@8.11.0
   eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
   husky: 7.0.4
   postcss: 8.4.12
-  prettier: 2.5.1
+  prettier: 2.6.2
   sass: 1.49.9
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.6.2
@@ -1348,7 +1348,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_c9d5adccfd1d43a8805a302169f6a967:
+  /eslint-plugin-prettier/4.0.0_d787f974c3263c3f552a159664c9f51b:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -1361,7 +1361,7 @@ packages:
     dependencies:
       eslint: 8.11.0
       eslint-config-prettier: 8.5.0_eslint@8.11.0
-      prettier: 2.5.1
+      prettier: 2.6.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -2308,8 +2308,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
