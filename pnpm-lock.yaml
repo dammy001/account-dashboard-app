@@ -27,7 +27,7 @@ specifiers:
   prettier: 2.6.2
   react: 18.0.0
   react-dom: 18.0.0
-  react-redux: 7.2.8
+  react-redux: 8.0.0
   react-router-dom: 6.3.0
   sass: 1.50.0
   tailwindcss: 3.0.24
@@ -36,12 +36,12 @@ specifiers:
 
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.1.0_react-dom@18.0.0+react@18.0.0
-  '@reduxjs/toolkit': 1.8.1_react-redux@7.2.8+react@18.0.0
+  '@reduxjs/toolkit': 1.8.1_react-redux@8.0.0+react@18.0.0
   axios: 0.26.1
   history: 5.3.0
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
-  react-redux: 7.2.8_react-dom@18.0.0+react@18.0.0
+  react-redux: 8.0.0_4ba69c7787dfd9a3579e23e97d93e7b4
   react-router-dom: 6.3.0_react-dom@18.0.0+react@18.0.0
 
 devDependencies:
@@ -417,7 +417,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@reduxjs/toolkit/1.8.1_react-redux@7.2.8+react@18.0.0:
+  /@reduxjs/toolkit/1.8.1_react-redux@8.0.0+react@18.0.0:
     resolution: {integrity: sha512-Q6mzbTpO9nOYRnkwpDlFOAbQnd3g7zj7CtHAZWz5SzE5lcV97Tf8f3SzOO8BoPOMYBFgfZaqTUZqgGu+a0+Fng==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
@@ -430,7 +430,7 @@ packages:
     dependencies:
       immer: 9.0.7
       react: 18.0.0
-      react-redux: 7.2.8_react-dom@18.0.0+react@18.0.0
+      react-redux: 8.0.0_4ba69c7787dfd9a3579e23e97d93e7b4
       redux: 4.1.2
       redux-thunk: 2.4.1_redux@4.1.2
       reselect: 4.1.5
@@ -478,6 +478,7 @@ packages:
       '@types/react': 18.0.5
       hoist-non-react-statics: 3.3.2
       redux: 4.1.2
+    dev: true
 
   /@types/react/18.0.5:
     resolution: {integrity: sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==}
@@ -488,6 +489,10 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+
+  /@types/use-sync-external-store/0.0.3:
+    resolution: {integrity: sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==}
+    dev: false
 
   /@typescript-eslint/eslint-plugin/5.19.0_d7674a10c8d55d7794ba7e5e188987eb:
     resolution: {integrity: sha512-w59GpFqDYGnWFim9p6TGJz7a3qWeENJuAKCqjGSx+Hq/bwq3RZwXYqy98KIfN85yDqz9mq6QXiY5h0FjGQLyEg==}
@@ -2042,6 +2047,7 @@ packages:
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /object-hash/3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
@@ -2260,6 +2266,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+    dev: true
 
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
@@ -2288,30 +2295,37 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-is/17.0.2:
-    resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+  /react-is/18.0.0:
+    resolution: {integrity: sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==}
     dev: false
 
-  /react-redux/7.2.8_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-6+uDjhs3PSIclqoCk0kd6iX74gzrGc3W5zcAjbrFgEdIjRSQObdIwfx80unTkVUYvbQ95Y8Av3OvFHq1w5EOUw==}
+  /react-redux/8.0.0_4ba69c7787dfd9a3579e23e97d93e7b4:
+    resolution: {integrity: sha512-zBwWgosy/MD2KKr1CtZyAzAaUa1xifJNt2mNszaBF7TtNlst5dooofVz7Djo7cxxkYZn+010Fqef/O4yxlW3cA==}
     peerDependencies:
-      react: ^16.8.3 || ^17 || ^18
-      react-dom: '*'
-      react-native: '*'
+      '@types/react': ^16.8 || ^17.0 || ^18.0
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+      react-native: '>=0.59'
+      redux: ^4
     peerDependenciesMeta:
+      '@types/react':
+        optional: true
       react-dom:
         optional: true
       react-native:
         optional: true
+      redux:
+        optional: true
     dependencies:
       '@babel/runtime': 7.16.5
-      '@types/react-redux': 7.1.24
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/react': 18.0.5
+      '@types/use-sync-external-store': 0.0.3
       hoist-non-react-statics: 3.3.2
-      loose-envify: 1.4.0
-      prop-types: 15.8.1
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
-      react-is: 17.0.2
+      react-is: 18.0.0
+      use-sync-external-store: 1.0.0_react@18.0.0
     dev: false
 
   /react-refresh/0.12.0:
@@ -2673,6 +2687,14 @@ packages:
     dependencies:
       punycode: 2.1.1
     dev: true
+
+  /use-sync-external-store/1.0.0_react@18.0.0:
+    resolution: {integrity: sha512-AFVsxg5GkFg8GDcxnl+Z0lMAz9rE8DGJCc28qnBuQF7lac57B5smLcT37aXpXIIPz75rW4g3eXHPjhHwdGskOw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0-rc
+    dependencies:
+      react: 18.0.0
+    dev: false
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
