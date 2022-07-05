@@ -4,7 +4,7 @@ specifiers:
   '@damilaredev/react-form-validation-hook': 1.1.0
   '@reduxjs/toolkit': 1.8.1
   '@types/node': 16.11.27
-  '@types/react': 18.0.6
+  '@types/react': 18.0.15
   '@types/react-dom': 18.0.4
   '@types/react-redux': 7.1.24
   '@typescript-eslint/eslint-plugin': 5.20.0
@@ -41,12 +41,12 @@ dependencies:
   history: 5.3.0
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
-  react-redux: 8.0.0_88579d3b6b39c2f7d58d2e55301b0aa5
+  react-redux: 8.0.0_7b54077ec3c1d5d5639b661f86a9f365
   react-router-dom: 6.3.0_react-dom@18.1.0+react@18.1.0
 
 devDependencies:
   '@types/node': 16.11.27
-  '@types/react': 18.0.6
+  '@types/react': 18.0.15
   '@types/react-dom': 18.0.4
   '@types/react-redux': 7.1.24
   '@typescript-eslint/eslint-plugin': 5.20.0_ba7224a6944305f809f4df3a82f80afa
@@ -432,7 +432,7 @@ packages:
     dependencies:
       immer: 9.0.7
       react: 18.1.0
-      react-redux: 8.0.0_88579d3b6b39c2f7d58d2e55301b0aa5
+      react-redux: 8.0.0_7b54077ec3c1d5d5639b661f86a9f365
       redux: 4.1.2
       redux-thunk: 2.4.1_redux@4.1.2
       reselect: 4.1.5
@@ -449,7 +449,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 18.0.6
+      '@types/react': 18.0.15
       hoist-non-react-statics: 3.3.2
 
   /@types/json-schema/7.0.9:
@@ -470,20 +470,20 @@ packages:
   /@types/react-dom/18.0.4:
     resolution: {integrity: sha512-FgTtbqPOCI3dzZPZoC2T/sx3L34qxy99ITWn4eoSA95qPyXDMH0ALoAqUp49ITniiJFsXUVBtalh/KffMpg21Q==}
     dependencies:
-      '@types/react': 18.0.6
+      '@types/react': 18.0.15
     dev: true
 
   /@types/react-redux/7.1.24:
     resolution: {integrity: sha512-7FkurKcS1k0FHZEtdbbgN8Oc6b+stGSfZYjQGicofJ0j4U0qIn/jaSvnP2pLwZKiai3/17xqqxkkrxTgN8UNbQ==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 18.0.6
+      '@types/react': 18.0.15
       hoist-non-react-statics: 3.3.2
       redux: 4.1.2
     dev: true
 
-  /@types/react/18.0.6:
-    resolution: {integrity: sha512-bPqwzJRzKtfI0mVYr5R+1o9BOE8UEXefwc1LwcBtfnaAn6OoqMhLa/91VA8aeWfDPJt1kHvYKI8RHcQybZLHHA==}
+  /@types/react/18.0.15:
+    resolution: {integrity: sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -2354,7 +2354,7 @@ packages:
     resolution: {integrity: sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==}
     dev: false
 
-  /react-redux/8.0.0_88579d3b6b39c2f7d58d2e55301b0aa5:
+  /react-redux/8.0.0_7b54077ec3c1d5d5639b661f86a9f365:
     resolution: {integrity: sha512-zBwWgosy/MD2KKr1CtZyAzAaUa1xifJNt2mNszaBF7TtNlst5dooofVz7Djo7cxxkYZn+010Fqef/O4yxlW3cA==}
     peerDependencies:
       '@types/react': ^16.8 || ^17.0 || ^18.0
@@ -2374,7 +2374,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.5
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 18.0.6
+      '@types/react': 18.0.15
       '@types/use-sync-external-store': 0.0.3
       hoist-non-react-statics: 3.3.2
       react: 18.1.0
