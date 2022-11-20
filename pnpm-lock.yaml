@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@damilaredev/react-form-validation-hook': 1.1.0
-  '@reduxjs/toolkit': 1.8.3
+  '@reduxjs/toolkit': 1.9.0
   '@types/node': 16.11.27
   '@types/react': 18.0.6
   '@types/react-dom': 18.0.4
@@ -36,7 +36,7 @@ specifiers:
 
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.1.0_react-dom@18.1.0+react@18.1.0
-  '@reduxjs/toolkit': 1.8.3_react-redux@8.0.0+react@18.1.0
+  '@reduxjs/toolkit': 1.9.0_react-redux@8.0.0+react@18.1.0
   axios: 0.26.1
   history: 5.3.0
   react: 18.1.0
@@ -423,8 +423,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@reduxjs/toolkit/1.8.3_react-redux@8.0.0+react@18.1.0:
-    resolution: {integrity: sha512-lU/LDIfORmjBbyDLaqFN2JB9YmAT1BElET9y0ZszwhSBa5Ef3t6o5CrHupw5J1iOXwd+o92QfQZ8OJpwXvsssg==}
+  /@reduxjs/toolkit/1.9.0_react-redux@8.0.0+react@18.1.0:
+    resolution: {integrity: sha512-ak11IrjYcUXRqlhNPwnz6AcvA2ynJTu8PzDbbqQw4a3xR4KZtgiqbNblQD+10CRbfK4+5C79SOyxnT9dhBqFnA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
       react-redux: ^7.2.1 || ^8.0.2
@@ -434,12 +434,12 @@ packages:
       react-redux:
         optional: true
     dependencies:
-      immer: 9.0.7
+      immer: 9.0.16
       react: 18.1.0
       react-redux: 8.0.0_88579d3b6b39c2f7d58d2e55301b0aa5
-      redux: 4.1.2
-      redux-thunk: 2.4.1_redux@4.1.2
-      reselect: 4.1.5
+      redux: 4.2.0
+      redux-thunk: 2.4.2_redux@4.2.0
+      reselect: 4.1.7
     dev: false
 
   /@rollup/pluginutils/4.2.0:
@@ -1823,8 +1823,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /immer/9.0.7:
-    resolution: {integrity: sha512-KGllzpbamZDvOIxnmJ0jI840g7Oikx58lBPWV0hUh7dtAyZpFqqrBZdKka5GlTwMTZ1Tjc/bKKW4VSFAt6BqMA==}
+  /immer/9.0.16:
+    resolution: {integrity: sha512-qenGE7CstVm1NrHQbMh8YaSzTZTFNP3zPqr3YU0S0UY441j4bJTg4A2Hh5KAhwgaiU6ZZ1Ar6y/2f4TblnMReQ==}
     dev: false
 
   /immutable/4.0.0:
@@ -2481,18 +2481,25 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /redux-thunk/2.4.1_redux@4.1.2:
-    resolution: {integrity: sha512-OOYGNY5Jy2TWvTL1KgAlVy6dcx3siPJ1wTq741EPyUKfn6W6nChdICjZwCd0p8AZBs5kWpZlbkXW2nE/zjUa+Q==}
+  /redux-thunk/2.4.2_redux@4.2.0:
+    resolution: {integrity: sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q==}
     peerDependencies:
       redux: ^4
     dependencies:
-      redux: 4.1.2
+      redux: 4.2.0
     dev: false
 
   /redux/4.1.2:
     resolution: {integrity: sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==}
     dependencies:
       '@babel/runtime': 7.16.5
+    dev: true
+
+  /redux/4.2.0:
+    resolution: {integrity: sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==}
+    dependencies:
+      '@babel/runtime': 7.16.5
+    dev: false
 
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
@@ -2510,8 +2517,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /reselect/4.1.5:
-    resolution: {integrity: sha512-uVdlz8J7OO+ASpBYoz1Zypgx0KasCY20H+N8JD13oUMtPvSHQuscrHop4KbXrbsBcdB9Ds7lVK7eRkBIfO43vQ==}
+  /reselect/4.1.7:
+    resolution: {integrity: sha512-Zu1xbUt3/OPwsXL46hvOOoQrap2azE7ZQbokq61BQfiXvhewsKDwhMeZjTX9sX0nvw1t/U5Audyn1I9P/m9z0A==}
     dev: false
 
   /resolve-from/4.0.0:
