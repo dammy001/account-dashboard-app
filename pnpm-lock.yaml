@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@damilaredev/react-form-validation-hook': 1.1.0
-  '@reduxjs/toolkit': 1.9.0
+  '@reduxjs/toolkit': 1.9.2
   '@types/node': 16.11.27
   '@types/react': 18.0.6
   '@types/react-dom': 18.0.4
@@ -36,7 +36,7 @@ specifiers:
 
 dependencies:
   '@damilaredev/react-form-validation-hook': 1.1.0_react-dom@18.1.0+react@18.1.0
-  '@reduxjs/toolkit': 1.9.0_react-redux@8.0.0+react@18.1.0
+  '@reduxjs/toolkit': 1.9.2_react-redux@8.0.0+react@18.1.0
   axios: 0.26.1
   history: 5.3.0
   react: 18.1.0
@@ -424,8 +424,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@reduxjs/toolkit/1.9.0_react-redux@8.0.0+react@18.1.0:
-    resolution: {integrity: sha512-ak11IrjYcUXRqlhNPwnz6AcvA2ynJTu8PzDbbqQw4a3xR4KZtgiqbNblQD+10CRbfK4+5C79SOyxnT9dhBqFnA==}
+  /@reduxjs/toolkit/1.9.2_react-redux@8.0.0+react@18.1.0:
+    resolution: {integrity: sha512-5ZAZ7hwAKWSii5T6NTPmgIBUqyVdlDs+6JjThz6J6dmHLDm6zCzv2OjHIFAi3Vvs1qjmXU0bm6eBojukYXjVMQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
       react-redux: ^7.2.1 || ^8.0.2
